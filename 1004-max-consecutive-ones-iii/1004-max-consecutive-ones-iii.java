@@ -16,8 +16,8 @@ class Solution {
                 l++;
             }
             if(zeros<=k){
-               int length=r-l+1;
-                maxlength=Math.max(maxlength,length);
+    
+                maxlength=Math.max(maxlength,r-l+1);
                    r++;
             }
             
